@@ -27,7 +27,7 @@ model Link {
   title       String
   description String
   rank        Int?
-  monthPv     Int?
+  monthPv     BigInt?
   lang        String?
   public      Boolean  @default(true)
   status      Int      @default(1)
